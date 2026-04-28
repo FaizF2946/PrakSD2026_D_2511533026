@@ -4,22 +4,22 @@ import java.util.Queue;
 
 public class QueueLinkedList_2511533026 {
 	public static void main (String[] args) {
-	Queue<Integer> q = new LinkedList<>();
+	Queue<Integer> q_3026 = new LinkedList<>();
 	//tambah elemen (0, 1, 2, 3, 4, 5) ke antrian
 	
 	for (int i= 0; i < 6; i++)
-		q.add(i);
+		q_3026.add(i);
 	//Menampilkan isi antrian.
-	System.out.println("Elemen Antrian "+ q);
+	System.out.println("Elemen Antrian "+ q_3026);
 	//Untuk menghapus kepala antrian.
-	int hapus = q.remove();
+	int hapus = q_3026.remove();
 	System.out.println("Hapus elemen + " + hapus);
-	System.out.println(q);
+	System.out.println(q_3026);
 	//Untuk melihat antrian terdepan
-	int depan = q.peek();
+	int depan = q_3026.peek();
 	System.out.println("Kepala Antrian = " + depan);
 	
-	int banyak = q.size();
+	int banyak = q_3026.size();
 	System.out.println("Size Antrian = " + banyak);
 }
 }

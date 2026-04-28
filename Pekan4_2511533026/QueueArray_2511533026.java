@@ -53,5 +53,10 @@ void display_3026() {
 		System.out.printf("|nAntrian kosong\n");
 		return;
 	}
+	//kunjungi dari belakang  dan cetak
+	for (i = front; i < rear; i++) {
+		System.out.printf(" %d <--", array[i]);
+	}
+	return;
 }
 }
